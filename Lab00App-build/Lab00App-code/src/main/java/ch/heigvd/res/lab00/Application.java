@@ -14,7 +14,7 @@ package ch.heigvd.res.lab00;
  */
 public class Application {
 
-  private String message;
+  private String message = "does it work?";
 
   public Application() {
     this("HEIG-VD rocks!");
@@ -29,7 +29,7 @@ public class Application {
   }
 
   public int add(int a, int b) {
-    return a * b;
+    return a + b;
   }
 
 }
