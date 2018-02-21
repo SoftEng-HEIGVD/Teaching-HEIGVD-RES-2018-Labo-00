@@ -1,8 +1,8 @@
 package ch.heigvd.res.lab00;
 
 public interface IInstrument{
-    public String play();
-    public int getSoundVolume();
-    public String getColor();
+    String play();
+    int getSoundVolume();
+    String getColor();
 
 }
