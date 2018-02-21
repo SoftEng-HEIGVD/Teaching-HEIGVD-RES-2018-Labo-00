@@ -29,7 +29,8 @@ public class Application {
   }
 
   public int add(int a, int b) {
-    return a * b;
+     //change * à +
+    return a + b;
   }
 
 }
