@@ -6,8 +6,7 @@
 package ch.heigvd.res.lab00;
 
 /**
- *
- * @author Joel
+ * @author Jokau
  */
 public class Flute implements IInstrument {
    private int soundVolume = 50;  
