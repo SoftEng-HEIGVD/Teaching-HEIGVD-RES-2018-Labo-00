@@ -10,8 +10,6 @@ package ch.heigvd.res.lab00;
  * @author zacharie
  */
 public class Flute implements IInstrument{
-    private int volume;
-    
     public Flute(){}
     @Override
     public String play(){
