@@ -1,11 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ch.heigvd.res.lab00;
 
 /**
+ * Class wich define a flute
+ *
+ * If you look at the class named ch.heigvd.res.lab00.TrumpetTest, you will find an
+ * executable specification for this class. The test methods specify the expected
+ * behavior for this class.
  *
  * @author Vincent Guidoux
  */
@@ -13,7 +13,7 @@ public class Flute implements IInstrument {
 
    @Override
    public String play() {
-      return "flute";
+      return "flute alors";
    }
 
    @Override
@@ -25,5 +25,4 @@ public class Flute implements IInstrument {
    public String getColor() {
       return "white";
    }
-   
 }
