@@ -37,7 +37,7 @@ public class Flute implements IInstrument {
 
    @Override
    public String getColor() {
-      return "silver";
+      return "golden";
    }
    
    
