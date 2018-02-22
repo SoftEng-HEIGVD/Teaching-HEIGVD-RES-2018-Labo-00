@@ -2,6 +2,7 @@ package ch.heigvd.res.lab00;
 
 import ch.heigvd.res.lab00.Application;
 import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 /**

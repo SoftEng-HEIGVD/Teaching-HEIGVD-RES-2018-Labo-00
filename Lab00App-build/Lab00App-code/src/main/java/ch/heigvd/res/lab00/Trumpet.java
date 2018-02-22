@@ -16,4 +16,7 @@ package ch.heigvd.res.lab00;
 	     return 2;
      }
 
+     public String getColor(){
+	     return "golden";
+     }
  }

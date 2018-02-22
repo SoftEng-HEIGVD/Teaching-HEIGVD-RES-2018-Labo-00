@@ -1,12 +1,13 @@
 package ch.heigvd.schoolpulse;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.util.logging.Logger;
 import org.junit.runner.Description;
 import org.junit.runner.Result;
 import org.junit.runner.notification.RunListener;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.util.logging.Logger;
 
 /**
  *

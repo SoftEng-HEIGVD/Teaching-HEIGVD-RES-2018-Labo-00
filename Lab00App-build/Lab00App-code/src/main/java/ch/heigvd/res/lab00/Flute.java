@@ -1,5 +1,10 @@
 package ch.heigvd.res.lab00;
 
+/**
+ * Fits the TrumpetTest Requirements
+ * @author Adrien Allemand
+ */
+
 public class Flute implements IInstrument {
 
     public Flute() {};
@@ -11,5 +16,9 @@ public class Flute implements IInstrument {
 
     public int getSoundVolume() {
         return 1;
+    }
+
+    public String getColor(){
+        return "black";
     }
 }
