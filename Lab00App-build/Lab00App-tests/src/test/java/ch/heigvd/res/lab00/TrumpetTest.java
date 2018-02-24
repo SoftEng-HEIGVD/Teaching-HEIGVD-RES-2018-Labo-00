@@ -13,9 +13,11 @@ import org.junit.Test;
  * 
  * @author Olivier Liechti
  */
+
+
+
 public class TrumpetTest {
 
-  /*
   @Test
   public void thereShouldBeAnIInstrumentInterfaceAndATrumpetClass() {
     IInstrument trumpet = new Trumpet();
@@ -30,7 +32,7 @@ public class TrumpetTest {
   }
   
   @Test
-  public void aTrumpetShouldMakePouet() {
+  public void aTrumpetShouldMakePouet(){
     IInstrument trumpet = new Trumpet();
     String sound = trumpet.play();
     Assert.assertEquals("pouet", sound);
@@ -51,6 +53,10 @@ public class TrumpetTest {
     String color = trumpet.getColor();
     Assert.assertEquals("golden", color);
   }
-  */
- 
+        
 }
+
+
+  
+ 
+
