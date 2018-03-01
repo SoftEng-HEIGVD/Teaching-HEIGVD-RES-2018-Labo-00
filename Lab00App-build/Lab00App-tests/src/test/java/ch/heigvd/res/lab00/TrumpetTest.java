@@ -14,7 +14,17 @@ import org.junit.Test;
  * @author Olivier Liechti
  */
 public class TrumpetTest {
-
+   
+  @Test
+  public void aCelloShouldBeLouderThanATrumpet() {
+     IInstrument trumpet = new Trumpet();
+     IInstrument cello = new Cello();
+     int trumpetVolume = trumpet.getSoundVolume();
+     int celloVolume = cello.getSoundVolume();
+     Assert.assertTrue(trumpetVolume < celloVolume);
+     
+     assertNotNull(cello);
+  }
  
   @Test
   public void thereShouldBeAnIInstrumentInterfaceAndATrumpetClass() {
@@ -50,5 +60,5 @@ public class TrumpetTest {
     IInstrument trumpet = new Trumpet();
     String color = trumpet.getColor();
     Assert.assertEquals("golden", color);
-  } 
+  }
 }
