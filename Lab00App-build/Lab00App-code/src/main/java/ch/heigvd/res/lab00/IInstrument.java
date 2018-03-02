@@ -1,14 +1,11 @@
-
 package ch.heigvd.res.lab00;
 
 /**
- *
- * @author radame
+ * Created by Olivier Liechti on 28/02/18.
  */
 public interface IInstrument {
-    
     public String play();
-    public int getSoundVolume();
     public String getColor();
-    
+    public int getSoundVolume();
+
 }

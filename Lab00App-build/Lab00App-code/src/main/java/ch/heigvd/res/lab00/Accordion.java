@@ -1,23 +1,24 @@
 package ch.heigvd.res.lab00;
 
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+
 /**
  * Created by Olivier Liechti on 28/02/18.
  */
-class Trumpet implements IInstrument {
+public class Accordion implements IInstrument {
+
     @Override
     public String play() {
-        return "pouet";
+        return "what?";
     }
 
     @Override
     public String getColor() {
-        return "golden";
+        throw new NotImplementedException();
     }
 
     @Override
     public int getSoundVolume() {
-        return 8;
+        throw new NotImplementedException();
     }
-
-
 }

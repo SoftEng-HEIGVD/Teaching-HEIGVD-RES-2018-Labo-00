@@ -1,34 +1,22 @@
-
 package ch.heigvd.res.lab00;
 
 /**
- *
- * @author Adam Zouari
+ * Created by Olivier Liechti on 28/02/18.
  */
 public class Flute implements IInstrument {
-    
-    private String sound, color;
-    private int volume;
+    @Override
+    public String play() {
+        return "pfuit";
+    }
 
-    public Flute() {
-        this.sound = "tut";
-        this.color = "white";
-        this.volume = 40;
+    @Override
+    public String getColor() {
+        return "silver";
     }
-    
-    public String play()
-    {
-        return sound;
-    }
-    
-    public int getSoundVolume()
-    {
-        return volume;
-    }
-    
-    public String getColor()
-    {
-        return color;
+
+    @Override
+    public int getSoundVolume() {
+        return 3;
     }
 
 }
