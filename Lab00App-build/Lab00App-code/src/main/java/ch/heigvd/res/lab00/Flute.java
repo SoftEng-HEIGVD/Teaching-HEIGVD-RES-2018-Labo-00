@@ -18,4 +18,5 @@ public class Flute implements IInstrument {
     public int getSoundVolume() {
         return 3;
     }
+
 }
