@@ -1,19 +1,21 @@
 package ch.heigvd.res.lab00;
 
-public class Flute implements IInstrument{
-    private String sound = "tweet";
-    private String color = "orange";
-    private int soundVolume = 1;
-
-    public String play(){
-        return sound;
+/**
+ * Created by Olivier Liechti on 28/02/18.
+ */
+public class Flute implements IInstrument {
+    @Override
+    public String play() {
+        return "pfuit";
     }
 
-    public int getSoundVolume(){
-        return soundVolume;
+    @Override
+    public String getColor() {
+        return "silver";
     }
 
-    public String getColor(){
-        return color;
+    @Override
+    public int getSoundVolume() {
+        return 3;
     }
 }
