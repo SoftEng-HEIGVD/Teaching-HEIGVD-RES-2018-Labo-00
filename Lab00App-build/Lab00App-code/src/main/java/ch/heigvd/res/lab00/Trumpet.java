@@ -19,4 +19,5 @@ class Trumpet implements IInstrument {
         return 8;
     }
 
+
 }

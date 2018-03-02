@@ -7,4 +7,5 @@ public interface IInstrument {
     public String play();
     public String getColor();
     public int getSoundVolume();
+
 }
