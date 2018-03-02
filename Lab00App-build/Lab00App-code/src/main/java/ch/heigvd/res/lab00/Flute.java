@@ -1,3 +1,30 @@
+<<<<<<< HEAD
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ch.heigvd.res.lab00;
+
+/**
+ *
+ * @author olivier
+ */
+public class Flute implements IInstrument {
+
+   public String play() {
+      return "";
+   }
+
+   public String getColor() {
+      return "";
+   }
+
+   public int getSoundVolume() {
+      return 5;
+   }
+
+=======
 package ch.heigvd.res.lab00;
 
 /**
@@ -18,4 +45,5 @@ public class Flute implements IInstrument {
     public int getSoundVolume() {
         return 3;
     }
+>>>>>>> bc7ea89dbbce94afc47a9131eb9afe0b3a5b9bf5
 }
