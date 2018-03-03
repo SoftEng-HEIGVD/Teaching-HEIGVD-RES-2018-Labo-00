@@ -1,5 +1,6 @@
 package ch.heigvd.res.lab00;
 
+
 /**
  * Created by Olivier Liechti on 28/02/18.
  */
@@ -18,5 +19,4 @@ class Trumpet implements IInstrument {
     public int getSoundVolume() {
         return 8;
     }
-
 }

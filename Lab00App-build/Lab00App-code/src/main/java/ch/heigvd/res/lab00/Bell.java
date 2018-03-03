@@ -1,12 +1,12 @@
 package ch.heigvd.res.lab00;
 
 /**
- * Created by Olivier Liechti on 28/02/18.
+ * Created by Romain Silvestri on 03/03/18.
  */
-public class AcousticGuitar implements IInstrument {
+public class Bell implements IInstrument {
     @Override
     public String play() {
-        return "tzing";
+        return "ding";
     }
 
     @Override
@@ -18,4 +18,5 @@ public class AcousticGuitar implements IInstrument {
     public int getSoundVolume() {
         throw new UnsupportedOperationException();
     }
+
 }
