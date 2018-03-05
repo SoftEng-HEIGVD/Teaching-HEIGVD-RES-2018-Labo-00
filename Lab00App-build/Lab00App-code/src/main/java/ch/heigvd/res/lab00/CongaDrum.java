@@ -25,8 +25,5 @@ public class CongaDrum implements IInstrument{
         return "Brownish Red";
     }
     
-    public Boolean isCubanInstrument(){
-        return true;
-    }
     
 }

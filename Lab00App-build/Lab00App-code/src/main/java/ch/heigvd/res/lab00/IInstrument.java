@@ -1,3 +1,4 @@
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -6,13 +7,11 @@
 package ch.heigvd.res.lab00;
 
 /**
- *
- * @author Rafidimalala
+ * Created by Olivier Liechti on 28/02/18.
  */
 public interface IInstrument {
-
-    String play();
-    int getSoundVolume();
-    String getColor();
+    public String play();
+    public String getColor();
+    public int getSoundVolume();
 
 }

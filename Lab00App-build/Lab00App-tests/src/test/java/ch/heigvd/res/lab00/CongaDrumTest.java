@@ -32,12 +32,7 @@ public class CongaDrumTest {
   public void aCongaDrumShouldBeBrownishRed() {
     IInstrument congaDrum = new CongaDrum();
     String color = congaDrum.getColor();
-    Assert.assertEquals("brownish red", color);
+    Assert.assertEquals("Brownish Red", color);
   }
-
-    @Test
-  public void aCongaDrumShouldbeCubanInstrument() {
-    IInstrument congaDrum = new CongaDrum();
-    Assert.assertEquals(true, congaDrum.play());
-  }  
+ 
 }

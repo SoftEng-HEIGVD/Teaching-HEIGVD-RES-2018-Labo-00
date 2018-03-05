@@ -1,32 +1,27 @@
+package ch.heigvd.res.lab00;
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ch.heigvd.res.lab00;
 
 /**
- *
- * @author Rafidimalala
+ * Created by Olivier Liechti on 28/02/18.
  */
-public class Trumpet implements IInstrument{
-    
-    private final String sound = "pouet";
-    private final int volume = 7;
-    private final String color = "golden";
+
+class Trumpet implements IInstrument {
     @Override
-    public String play(){
-        return sound;
+    public String play() {
+        return "pouet";
     }
-    
+
     @Override
-    public int getSoundVolume(){
-        return volume;
+    public String getColor() {
+        return "golden";
     }
-    
+
     @Override
-    public String getColor(){
-        return color;
-    }  
-    
+    public int getSoundVolume() {
+        return 8;
+    }
 }
