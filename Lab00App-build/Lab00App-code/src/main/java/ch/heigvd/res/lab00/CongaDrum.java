@@ -7,25 +7,26 @@ package ch.heigvd.res.lab00;
 
 /**
  *
- * @author Rafidimalala
+ * @author fidimala
  */
-public class Flute implements IInstrument{
-    private final String sound = "fluflu";
-    private final int volume = 3;
-    private final String color = "gray";
-    
+public class CongaDrum implements IInstrument{
     @Override
     public String play(){
-        return sound;
+        return "poum poum";
     }
     
     @Override
     public int getSoundVolume(){
-        return volume;
+        return 5;
     }
     
     @Override
     public String getColor(){
-        return color;
-    }      
+        return "Brownish Red";
+    }
+    
+    public Boolean isCubanInstrument(){
+        return true;
+    }
+    
 }
