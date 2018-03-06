@@ -19,4 +19,5 @@ class Trumpet implements IInstrument {
     public int getSoundVolume() {
         return 12 ;
     }
+
 }
