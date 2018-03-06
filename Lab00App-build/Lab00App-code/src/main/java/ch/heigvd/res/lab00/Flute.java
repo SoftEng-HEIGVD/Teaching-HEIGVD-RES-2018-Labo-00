@@ -23,6 +23,11 @@ public class Flute implements IInstrument{
       public String getColor(){
         return "red";
     }
+      
+      @Override
+      public boolean getMostImportant(){
+          return false;
+      }
     
     
     

@@ -25,6 +25,11 @@ public class Trumpet implements IInstrument{
         return "golden";
     }
     
+    @Override
+    public boolean getMostImportant(){
+          return false;
+    }
+    
     
         
 }
