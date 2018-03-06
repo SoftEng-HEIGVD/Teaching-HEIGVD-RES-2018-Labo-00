@@ -1,22 +1,21 @@
 package ch.heigvd.res.lab00;
 
-
 /**
  * Created by Olivier Liechti on 28/02/18.
  */
-class Trumpet implements IInstrument {
+public class AcousticGuitar implements IInstrument {
     @Override
     public String play() {
-        return "pouet";
+        return "tzing";
     }
 
     @Override
     public String getColor() {
-        return "golden";
+        throw new UnsupportedOperationException();
     }
 
     @Override
     public int getSoundVolume() {
-        return 8;
+        throw new UnsupportedOperationException();
     }
 }
