@@ -26,8 +26,4 @@ public Alphorn(){}
         return "green";
     }
       
-    @Override
-    public boolean getMostImportant(){
-        return true;
-    }
 }

@@ -1,22 +1,21 @@
 package ch.heigvd.res.lab00;
 
-
 /**
  * Created by Olivier Liechti on 28/02/18.
  */
-public class Flute implements IInstrument {
+public class AcousticGuitar implements IInstrument {
     @Override
     public String play() {
-        return "pfuit";
+        return "tzing";
     }
 
     @Override
     public String getColor() {
-        return "silver";
+        throw new UnsupportedOperationException();
     }
 
     @Override
     public int getSoundVolume() {
-        return 3;
+        throw new UnsupportedOperationException();
     }
 }

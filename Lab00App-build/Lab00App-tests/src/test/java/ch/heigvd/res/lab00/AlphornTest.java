@@ -50,11 +50,5 @@ public class AlphornTest {
     Assert.assertEquals("green", color);
   }
   
-  @Test
-  public void anAlphornShouldBeTheMostImportantInstrumet() {
-    IInstrument alphorn = new Alphorn();
-    boolean value = alphorn.getMostImportant();
-    Assert.assertEquals(value, true);
-  }
   
 }
