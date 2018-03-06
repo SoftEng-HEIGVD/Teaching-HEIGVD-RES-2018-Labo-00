@@ -12,7 +12,7 @@ package ch.heigvd.res.lab00;
 public class Saxophone implements IInstrument {
     @Override
     public String play() {
-        return "tuintuin"; 
+        return  "tuintuin"; 
     }
 
     @Override
