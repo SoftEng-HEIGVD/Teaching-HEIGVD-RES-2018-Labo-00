@@ -21,7 +21,7 @@ public class TrumpetTest {
     IInstrument trumpet = new Trumpet();
     assertNotNull(trumpet);
   }
-  
+
   @Test
   public void itShouldBePossibleToPlayAnInstrument() {
     IInstrument trumpet = new Trumpet();

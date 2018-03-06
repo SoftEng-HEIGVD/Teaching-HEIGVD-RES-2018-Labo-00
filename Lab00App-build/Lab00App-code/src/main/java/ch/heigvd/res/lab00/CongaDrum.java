@@ -1,28 +1,29 @@
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package ch.heigvd.res.lab00;
 
 /**
- * Created by Olivier Liechti on 28/02/18.
+ *
+ * @author fidimala
  */
-public class Flute implements IInstrument {
+public class CongaDrum implements IInstrument{
     @Override
-    public String play() {
-        return "pfuit";
+    public String play(){
+        return "poum poum";
     }
-
+    
     @Override
-    public String getColor() {
-        return "silver";
+    public int getSoundVolume(){
+        return 5;
     }
-
+    
     @Override
-    public int getSoundVolume() {
-        return 3;
+    public String getColor(){
+        return "Brownish Red";
     }
+    
+    
 }

@@ -1,5 +1,7 @@
 package ch.heigvd.res.lab00;
 
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
+
 /**
  * Created by Olivier Liechti on 28/02/18.
  */
