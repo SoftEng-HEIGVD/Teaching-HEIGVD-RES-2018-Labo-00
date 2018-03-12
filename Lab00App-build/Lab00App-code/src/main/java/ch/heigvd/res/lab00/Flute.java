@@ -17,5 +17,6 @@ public class Flute implements IInstrument {
     @Override
     public int getSoundVolume() {
         return 3;
+
     }
 }
