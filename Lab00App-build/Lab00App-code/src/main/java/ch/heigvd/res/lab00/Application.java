@@ -28,14 +28,8 @@ public class Application {
       return message;
    }
 
-<<<<<<< HEAD
    public int add(int a, int b) {
       return a + b;
    }
-=======
-  public int add(int a, int b) {
-    return a + b;
-  }
->>>>>>> bc7ea89dbbce94afc47a9131eb9afe0b3a5b9bf5
 
 }

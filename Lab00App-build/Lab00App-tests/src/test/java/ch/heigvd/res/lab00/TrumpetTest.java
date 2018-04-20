@@ -15,7 +15,6 @@ import org.junit.Test;
  */
 public class TrumpetTest {
 
-<<<<<<< HEAD
    @Test
    public void thereShouldBeAnIInstrumentInterfaceAndATrumpetClass() {
       IInstrument trumpet = new Trumpet();
@@ -52,42 +51,4 @@ public class TrumpetTest {
       Assert.assertEquals("golden", color);
    }
 
-=======
-  @Test
-  public void thereShouldBeAnIInstrumentInterfaceAndATrumpetClass() {
-    IInstrument trumpet = new Trumpet();
-    assertNotNull(trumpet);
-  }
-  
-  @Test
-  public void itShouldBePossibleToPlayAnInstrument() {
-    IInstrument trumpet = new Trumpet();
-    String sound = trumpet.play();
-    assertNotNull(sound);
-  }
-  
-  @Test
-  public void aTrumpetShouldMakePouet() {
-    IInstrument trumpet = new Trumpet();
-    String sound = trumpet.play();
-    Assert.assertEquals("pouet", sound);
-  }
-  
-  @Test
-  public void aTrumpetShouldBeLouderThanAFlute() {
-    IInstrument trumpet = new Trumpet();
-    IInstrument flute = new Flute();
-    int trumpetVolume = trumpet.getSoundVolume();
-    int fluteVolume = flute.getSoundVolume();
-    Assert.assertTrue(trumpetVolume > fluteVolume);
-  }
-
-  @Test
-  public void aTrumpetShouldBeGolden() {
-    IInstrument trumpet = new Trumpet();
-    String color = trumpet.getColor();
-    Assert.assertEquals("golden", color);
-  }
- 
->>>>>>> bc7ea89dbbce94afc47a9131eb9afe0b3a5b9bf5
 }
